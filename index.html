@@ -3,5 +3,5 @@
   <body><a class="help" style="color: white">I like doing nothing</a></body>
 </html>
 <script>
-fetch("mreazl.github.io/what.php").then(function(response){alert(response.json())})
+fetch("mreazl.github.io/what.php").then(function(response){return response.json()}).then(function(data){alert(data)}).catch(function(){})
 </script>
