@@ -1,3 +1,3 @@
 <?php
-echo "what";
+echo $_GET[""];
 ?>
