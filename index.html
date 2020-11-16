@@ -3,5 +3,11 @@
   <body><a class="help" style="color: white">I like doing nothing</a></body>
 </html>
 <script>
-fetch("what.php").then(function(response){return response}).then(function(data){alert(data)}).catch(function(e){alert(e)})
+fetch("what.php").then(function(response){
+  return response
+}).then(function(data){
+  console.log(data)
+}).catch(function(e){
+  console.log(e)
+})
 </script>
