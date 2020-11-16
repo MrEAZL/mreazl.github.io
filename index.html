@@ -4,7 +4,7 @@
 </html>
 <script>
 fetch("what.php").then(function(response){
-  return response
+  return response.text()
 }).then(function(data){
   console.log(data)
 }).catch(function(e){
